@@ -1,0 +1,1223 @@
+used symbols:
+~: file changed
++: file added
+-: file removed
+->: file renamed
+files expected to change every time: kde/ChangeLog and kde/TODO
+
+
+----------
+11/28/06 jpetso (0.8.2 release)
+---------
+
+apps/
+ +wlassistant.svg: finally, an icon for wireless stuff
+actions/
+ +audioscrobbler.svg: an icon for last.fm, used by Amarok
+ +dynamic.svg: an icon for Amarok's very cool dynamic mode
+ +visualizations.svg: for Amarok's Visualization menu entry
+ +podcast.svg: putting the wlassistant icon into another use, for Amarok
+ +podcast_new.svg: same thing, only with yellow radio waves
+ +mail_post_to.svg: another icon for KMail
+
+
+----------
+06/24/06 jpetso
+---------
+
+actions/
+ ~tab_new.svg: switch colors, the "new" tab is lighter now than the "old" one
+ ~tab_breakoff.svg: ditto
+ ~tab_duplicate.svg: ditto
+ +button_fewer.svg: copy of button_cancel.svg, for KMail's filtering dialog
+ +button_more.svg: copy of button_ok.svg, ditto
+ ~covermanager.svg: made the jewel case a little less wide, looks more authentic
+ +konv_message.svg: red version of the Konversation icon, used for flashing in the system tray
+ +make_kdevelop.svg: finally, a "build" icon for KDevelop
+ +show_side_panel.svg: copy of view_sidetree.svg
+ +minitools.svg: a simple star icon, like the original one
+
+
+----------
+05/30/06 jpetso
+---------
+
+apps/
+ ~package_system.svg: I prefer Tango's devices/computer.svg icon for this.
+ ~kcmsound.svg: color fix
+ -network.svg: another unnecessary network icon? be gone!
+
+
+----------
+05/29/06 jpetso
+---------
+
+actions/
+ +kgpg_docked.svg: guess what ;)
+ +mail_ham.svg: for KMail/Kontact
+ +mail_spam.svg: ditto
+ +mail_ignore.svg: ditto
+ +mail_flag.svg: ditto
+ +mail_todo.svg: ditto
+ +online_status.svg: ditto
+ +kmmsgattachment.svg: ditto
+ +kmmsgdel.svg: ditto
+ +kmmsgflag.svg: ditto
+ +kmmsgforwarded.svg: ditto
+ +kmmsgham.svg: ditto
+ +kmmsgignored.svg: ditto
+ +kmmsgnew.svg: ditto
+ +kmmsgread.svg: ditto
+ +kmmsgread_fwd_replied.svg: ditto
+ +kmmsgread_fwd.svg: ditto
+ +kmmsgread_replied.svg: ditto
+ +kmmsgreplied.svg: ditto
+ +kmmsgspam.svg: ditto
+ +kmmsgunseen.svg: ditto
+ +kmmsgwatched.svg: ditto
+ -network.svg: not supposed to be in actions/, I think, there's one network.svg in filesystems/ already
+
+
+----------
+05/28/06 jpetso
+---------
+
+actions/
+ ~player_volume.svg: color fix
+ +covermanager.svg: new icon, for amaroK
+ +equalizer.svg: ditto
+ ~wizard.svg: make the star bigger
+
+apps/
+ ~arts.svg: color fix, same as actions/player_volume.svg
+ ~apollon.svg: update with the more polished Gnome version
+
+
+----------
+04/11/06 jpetso
+---------
+
+actions/
+ +window_suppressed.svg: copy of actions/view_remove.svg, for popup blockers
+ +cssvalidator.svg: derived from the website one
+ +htmlvalidator.svg: ditto
+
+apps/
+ +stylesheet.svg: copy of actions/cssvalidator.svg
+ +wine.svg: new icon for (surprise!) wine
+ +gpg.svg: copy of the lock icon
+ +gpgsm.svg: ditto
+ +kgpg.svg: a rotated lock icon, like the original
+
+
+----------
+03/21/06 jpetso
+---------
+
+actions/
+ ~attach.svg: updated with 9-speed's new attach icon from the Tango port
+ ~player_mute.svg: color fix
+
+apps/
+ ~access.svg: update from 9-speed's Tango commit
+ ~proxy.svg: ditto
+ ~background.svg: remove non-standard gradient definitions
+ ~kfm.svg: kde icon renderer fix
+ ~kwin.svg: color fix
+
+filesystems/
+ ~network_local.svg: finally updated with the recolored home icon
+
+~makerelease.svg: small bug fix, I can't even remember the cause
+
+
+----------
+03/11/06 jpetso (0.8.2 release)
+---------
+
+actions/
+ +switchuser.svg: copy of amsn.svg, gets displayed in the KMenu
+ ~kopeteavailable.svg: replaced with an amsn.svg like single-user, as the
+     previous one was not conforming the color specification and Lila style
+ ~kopeteaway.svg: ditto
+ ~kontact_contacts.svg: replaced the user icon too
+ +collection.svg: a "three-cdroms" icon for amarok
+ +player_playlist.svg: the last missing one of the player_* series (for real, this time)
+ +player_playlist_2.svg: a copy of the above, for amarok
+ -preferences.svg: not in Crystal, I guess telex has added that unintentionally
+
+apps/
+ ~amsn.svg: tiny tweaks on the highlights
+ +konversation.svg: totally new. I hope many people like it.
+ ~personal.svg: same as kopeteavailable.svg
+ ~kuser.svg: copy of personal.svg with additional screw wrench
+ +userconfig.svg: copy of kuser.svg
+ ~kdmconfig.svg: copy of amsn.svg
+ ~kaddressbook.svg: copy of kontact_contacts.svg
+ ~kcmsystem.svg: painted the screw wrench white
+ ~package_system.svg: ditto
+ ~kdebluetooth.svg: reworked, I think it's better now
+ +kbluetoothd.svg: another pointless copy
+ +kxkb.svg: copy of keyboard.svg
+ ~kaffeine-pause.svg: updated with the current pause icon
+ ~kaffeine-play.svg: updated with the current play icon
+ ~kaffeine-record.svg: updated with the current record icon
+ ~ksplash.svg: color fix
+
+filesystems/
+ ~folder_video: fixed the gradients
+
+COPYRIGHT: replaced "Lila Community" by the people who have actually worked
+           on Lila, following legal advice from the kde-core-devel list.
+
+
+----------
+02/24/06 jpetso
+---------
+
+actions/
+ ~view_fit_height.svg: fixed the gradient - the light comes from the top left
+ +wizard.svg: new icon, a magic wand not very different to the original
+
+apps/
+ +filetypes.svg: newly combined icon. badly needed and finally there.
+ ~photobook.svg: fixed the gradient
+
+
+----------
+02/23/06 jpetso
+---------
+
+actions/
+ +view_fit_window.svg: new in KDE 3.5, finally drawn
+ +view_fit_width.svg: ditto
+ +view_fit_height.svg: ditto
+
+apps/
+ +kile.svg: new icon for Kile, roughly imitating the original, uninspired one
+ ~akregator_empty.svg: has the same purpose as kmaillight, actually. adapt.
+ ~kmaillight.svg: standardize transparency to a 0.35 value
+ ~firefox.svg: kde icon renderer fix
+ +mozilla-firefox.svg: copy of firefox.svg, for Ubuntu et al.
+ ~background.svg: make it more appealing
+
+----------
+11/29/05 jpetso
+---------
+
+actions/
+ ~up.svg: wrong highlights? fixed.
+ +fork.svg: new icon. wanted to do this for a long time.
+
+
+----------
+11/12/05 jpetso
+---------
+
+apps/
+ ~kgamma.svg: kde icon renderer fix, and make the icon full size
+
+devices/
+ ~ipod.svg: kde icon renderer fix, and make the icon full size
+ ~ipod_mount.svg: ditto
+
+
+----------
+11/09/05 jpetso
+---------
+
+apps/
+ ~browser.svg: kde icon renderer fix
+ ~package_graphics.svg: ditto
+ ~package_utilities.svg: ditto
+ ~network.svg: resized to use all 48x48pt
+ ~package_applications.svg: ditto, and renderer fix
+ ~package_development.svg: like package_applications.svg
+ ~package.svg: like package_applications.svg
+
+
+----------
+11/08/05 jpetso
+---------
+
+actions/
+ +bookmarks_list_add.svg: another one
+ +player_record.svg: completing the player_* series
+
+apps/
+ +amarok.svg: long awaited, finally there. yes, derived from the original one.
+ ~email.svg: kde icon renderer fix
+ ~kmail.svg: ditto
+ ~kmaillight.svg: ditto
+ ~fonts.svg: ditto
+ ~kfontview.svg: ditto
+ ~settings-font.svg: ditto
+ ~looknfeel.svg: ok, less colors.
+
+----------
+11/03/05 jpetso
+---------
+
+actions/
+ ~bookmark_folder.svg: ...must have forgotten that one last time.
+
+
+----------
+11/02/05 jpetso
+---------
+
+actions/
+ ~bookmark.svg: replaced the book with the bookmark icon
+ ~bookmark_toolbar.svg: away with the book as well
+ ~bookmark_add.svg: kde icon renderer fix
+ ~fonts.svg: ditto
+ ~text.svg: ditto
+
+apps/
+ ~kmixdocked.svg: color & border strenght fix
+ ~kmixdocked_mute.svg: ditto
+ ~kmixdocked_error.svg: ditto
+ ~looknfeel.svg: just has to be a litte more colorful
+ ~kcalc.svg: kde icon renderer fix
+ ~kdict.svg: ditto
+ ~kmix.svg: ditto
+ ~access.svg: ditto
+ ~locale.svg: ditto
+ ~lockscreen.svg: ditto
+ ~logout.svg: ditto
+ ~kcmfontinst.svg: ditto
+ ~background.svg: ditto
+ ~konsole.svg: ditto
+
+mimetypes/
+ ~bittorrent.svg: kde icon renderer fix
+ ~font.svg: ditto
+ ~binary.svg: replaced the "new" icon with the "bittorrent" one, fits better
+
+
+----------
+11/02/05 jpetso
+---------
+
+actions/
+ ~bottom.svg: kde icon renderer fix
+ ~build.svg: ditto
+ ~down.svg: ditto
+ ~kdevelop_down.svg: ditto
+ ~goto.svg: ditto
+ ~start.svg: ditto
+ ~finish.svg: ditto
+ ~top.svg: ditto
+ ~up.svg: ditto
+ ~help.svg: ditto
+ ~add.svg: ditto
+ ~remove.svg: ditto
+ ~edit_add.svg: ditto
+ ~edit_remove.svg: ditto
+ ~exec.svg: ditto
+ ~gear.svg: ditto
+ ~run.svg: ditto
+ ~lock.svg: ditto
+ ~locked.svg: ditto
+ ~authenticate.svg: ditto
+ ~encrypted.svg: ditto
+ ~wallet_closed.svg: ditto
+ ~decrypted.svg: ditto
+ ~unlock.svg: ditto
+ ~wallet_open.svg: ditto
+ ~reload.svg: ditto
+ ~reload3.svg: ditto
+ ~centrejust.svg: ditto
+ ~under.svg: ditto
+ ~spellcheck.svg: ditto
+ ~player_rew.svg: ditto
+ ~player_ffw.svg: ditto
+ ~player_start.svg: ditto
+ ~player_end.svg: ditto
+ ~viewmag1.svg: ditto
+ ~viewmagfit.svg: ditto
+ ~viewmag-.svg: ditto
+ ~viewmag.svg: ditto
+ ~viewmag+.svg: ditto
+ ~goto.svg: ditto, and changed to the new definition of yellow
+ ~window_new.svg: exactly like goto.svg above
+ ~mail_new.svg: fixed bad colors, and kde icon renderer fix
+ ~quit.svg: slight reworking
+ ~exit.svg: copy of the reworked quit
+ ~player_pause.svg: very slight change of the pause bars
+ ~player_stop.svg: making the stop rectangle a little bit rounder
+ ~player_play.svg: not that much border bending, please
+
+apps/
+ ~kfind.svg: kde icon renderer fix
+ +kdevelop3.svg: at least Ubuntu has the icon renamed (additionally), which is nasty
+
+
+----------
+10/21/05 jpetso
+---------
+
+actions/
+ ~rightjust.svg: kde icon renderer fix
+ ~leftjust.svg: ditto
+ ~text_left.svg: ditto
+ ~text_right.svg: ditto
+ ~text_center.svg: ditto
+ ~text_block.svg: ditto
+ ~text_bold.svg: ditto
+ ~text_italic.svg: ditto
+ ~text_strike.svg: ditto
+ ~text_under.svg: ditto
+ ~next.svg: ditto
+ ~forward.svg: ditto
+ ~previous.svg: ditto
+ ~back.svg: ditto
+ ~indent.svg: ditto, and increasing the arrow size
+ ~unindent.svg: ditto, and increasing the arrow size too
+ ~format_increaseindent.svg: like indent.svg
+ ~format_decreaseindent.svg: like unindent.svg
+
+
+----------
+10/19/05 jpetso
+---------
+
+actions/
+ ~quit.svg: omg, this was waaay too huge
+ ~identity.svg: replaced with bordered user icon
+ ~filequickprint.svg: better recognizability for the lens glasses
+ ~appointment.svg: kde icon renderer fix
+ ~apply.svg: ditto
+ ~button_ok.svg: ditto
+ ~button_cancel.svg: ditto
+ ~cancel.svg: ditto
+ ~copy.svg: ditto
+ ~cut.svg: ditto
+ ~editcopy.svg: ditto
+ ~editcut.svg: ditto
+ ~editdelete.svg: ditto
+ ~editpaste.svg: ditto
+ ~exit.svg: ditto
+ ~fileclose.svg: ditto
+ ~filefind.svg: ditto
+ ~filenew.svg: ditto
+ ~filesaveas.svg: ditto
+ ~fileopen.svg: ditto
+ ~find.svg: ditto
+ ~new.svg: ditto
+ ~ok.svg: ditto
+ ~paste.svg: ditto
+ ~redo.svg: ditto
+ ~replace.svg: ditto
+ ~revert.svg: ditto
+ ~save_as.svg: ditto
+ ~undo.svg: ditto
+
+apps/
+ +kdissert.svg: new and from telex4
+ ~amsn.svg: kde icon renderer fix
+
+mimetypes/
+ +kdi.svg: KDissert mimetype, also from telex4
+ ~empty.svg: kde icon renderer fix
+
+
+----------
+10/14/05 jpetso
+---------
+
+apps/
+ ~network.svg: un-gentooized to be prepared for inclusion in a new splash screen
+
+
+----------
+09/20/05 jpetso (0.8.1 release)
+---------
+
+kde/
+ ~README: updated the version string to 0.8.1
+ ~FAQ: new section about how to install the theme, and an index
+ ~makerelease.sh: version string substitution, superior arguments parsing,
+                  and white as an additional default color mod
+ ~makecolormod.sh: don't remember, must've been some minor issue
+ ~index.desktop: adapt the comment string to not contain Gentoo
+ -index-red.desktop: not needed anymore, now created on the fly
+ -index-blue.desktop: ditto
+
+actions/
+ +classnew.svg: inspecting the KDevelop sources brought me the icon name :)
+ ~contexthelp.svg: adjust the border size to 1.5pt
+ ~gohome.svg: no more gentoo, I modified the house icon to be appropriate
+ ~kde.svg: ditto
+
+apps/
+ -pakoo.svg: deleted for now, will make its comeback in the upcoming gentoo expansion set
+ -kfm_home2.svg: not used in KDE
+ ~kfm_home.svg: no more gentoo, like actions/gohome
+ ~ksplash.svg: ditto, and a little reworking / adhering to lila standards
+ ~package.svg: color fix, for the color mods to work properly
+
+filesystems/
+ ~folder_home.svg: no more gentoo, like actions/gohome
+ +folder_home2.svg: for KDE 3.5, currently just a copy of folder_home
+
+
+----------
+09/19/05 jpetso: a shitload of compatibility fixes for the bad kde icon renderer
+---------
+
+kde/
+ ~generate.py: do 'rm -rf' instead of 'rm -r' to autoclean old icons
+
+devices/: kde icon-renderer compatibility fixes for all files in here
+ +memory.svg: the former cpu icon
+ ~ksim_cpu.svg: new cpu icon, extracted from one of the rom mimetypes
+ ~ipod.svg: updated with color changes (right?) from a recent gnome commit
+ ~ipod_mount.svg: ditto
+ ~3floppy_mount.svg: kde icon-renderer compatibility fix
+ ~3floppy_unmount.svg: ditto
+ ~battery.svg: ditto (and a color fix)
+ ~blockdevice.svg: ditto
+ ~camera.svg: ditto
+ ~camera_mount.svg: ditto
+ ~camera_unmount.svg: ditto
+ ~cdaudio_unmount.svg: ditto
+ ~cdaudio_mount.svg: ditto
+ ~cdrom_unmount.svg: ditto
+ ~cdrom_mount.svg: ditto
+ ~cdwriter_unmount.svg: ditto (and replacing it with the gnome version)
+ ~cdwriter_mount.svg: ditto (and the gnome version, too)
+ ~chardevice.svg: ditto (and removal of the highlights' borders)
+ ~dvd_mount.svg: ditto
+ ~dvd_unmount.svg: ditto
+ ~hdd_mount.svg: ditto
+ ~hdd_unmount.svg: ditto
+ ~ipod_mount.svg: ditto
+ ~ipod.svg: ditto
+ ~joystick.svg: ditto
+ ~ksim_cpu.svg: ditto (and removal of the highlights' borders, like chardevice)
+ ~mobile_camera.svg: ditto
+ ~mobile_musicplayer.svg: ditto
+ ~mobile_organizer.svg: ditto
+ ~mobile_phone.svg: ditto
+ ~mouse.svg: ditto
+ ~pda_black.svg: ditto
+ ~printer1.svg: ditto
+ ~printer.svg: ditto
+ ~print_printer.svg: ditto
+ ~scanner.svg: ditto
+ ~system.svg: ditto
+ ~tv.svg: ditto
+ ~usbpendrive_mount.svg: ditto
+ ~usbpendrive_unmount.svg: ditto
+ ~zip_mount.svg: ditto
+ ~zip_unmount.svg: ditto
+
+apps/
+ ~ark.svg: fsck the fileroller icon, the original one is better
+ +kcmmemory.svg: the former cpu icon
+ ~kcmprocessor.svg: new cpu icon (the same as devices/ksim_cpu.svg)
+ ~kscreensaver.svg: slight reworking (colors & shapes)
+ +ksnake.svg: new icon! (but derived from the python mimetype)
+ ~camera.svg: kde icon-renderer compatibility fix
+ ~digikam.svg: ditto
+ ~juk.svg: ditto
+ ~kcmprocessor.svg: ditto (and removal of the highlights' borders, like in devices/)
+ ~kjobviewer.svg: ditto
+ ~konqsidebar_mediaplayer.svg: ditto
+ ~kpilot.svg: ditto
+ ~kpilotDaemon.svg: ditto
+ ~kscd.svg: ditto
+ ~laptop_battery.svg: ditto (and the color fix, like in devices/)
+ ~package_games.svg: ditto
+ ~package_settings.svg: ditto
+
+filesystems/
+ ~network_local.svg: finally updated with the rounded-edges home icon
+ +link.svg: I think it looks ok when it's white
+ ~blockdev.svg: kde icon-renderer compatibility fix
+ ~camera.svg: ditto
+ ~chardev.svg: ditto
+
+actions/
+ +bookmark_list_add.svg: combination of the folder and bookmark_add icons
+ ~bookmark_folder.svg: replace the lying book with the standing one
+ +bookmark_toolbar.svg: copy of the above, plus the abstract toolbar
+                        from configure_toolbars.svg
+ ~bookmark.svg: color fix
+ ~contents2.svg: color fix, too
+ ~pencil.svg: replaced by gnome's apps/logjam_pencil.svg
+ ~cd.svg: kde icon-renderer compatibility fix
+ ~cdburn.svg: ditto
+ ~fileexport.svg: ditto
+ ~fileprint.svg: ditto
+ ~filesave.svg: ditto
+ ~hdd.svg: ditto
+ ~juk_dock.svg: ditto
+ ~mouse.svg: ditto
+ ~print.svg: ditto
+ ~save.svg: ditto
+
+mimetypes/
+ +kmultiple.svg: copy of actions/dnd_multi.svg
+ +superkaramba_theme.svg: copy of gnome's mimetypes/x-gdesklets-display.svg
+
+
+----------
+09/17/05 jpetso
+---------
+
+apps/
+ +multisynk.svg: must have forgotten to commit that one.
+
+devices/
+ +usbpendrive_unmount.svg: the long awaited usb-stick icon!
+ +usbpendrive_mount.svg: ditto
+
+
+----------
+07/30/05 jpetso
+---------
+
+actions/
+ ~view_sidetree.svg: moved the sidetree left, so that it's not a midtree
+
+apps/
+ ~gwenview.svg: simple linear gradient for the glasses instead of a more freaky one
+ ~akregator_empty.svg: still don't know where it's used, but it's nicer now
+
+devices/
+ +ipod.svg: now in KDE too, since 3.5
+ +ipod_mount.svg: ditto
+
+
+----------
+07/14/05 jpetso
+---------
+
+actions/
+ ~filter.svg: small rework. I like it better now, and it's more standard too.
+
+apps/
+ +gwenview.svg: new icon, modelled after the original one
+ +kolourpaint.svg: ditto
+
+
+----------
+07/06/05 jpetso
+---------
+
+actions/
+ ~fileclose.svg: fixed wrong border color
+ +project_open.svg: new icon, mixture of a window and the 'open' icon
+ +filter.svg: new icon. didn't get it quite well, did I? however.
+
+
+----------
+06/29/05 jpetso
+---------
+
+apps/
+ +superkaramba.svg: Themeable at last (coming in v0.37)! Copy of gdesklets.
+
+
+----------
+06/25/05 jpetso
+---------
+
+actions/
+ +webarchiver.svg
+
+
+----------
+06/23/05 jpetso
+---------
+
+apps/
+ ~kedit.svg: mirrored the pencil (KEdit is kept because of RTL)
+ ~kwrite.svg: the previous KEdit icon, so it has a pencil too
+ ~kate.svg: KWrite, but with multiple documents.
+            (I think the three editors now have reasonably distinguishing icons.)
+
+
+----------
+06/22/05 jpetso
+---------
+
+actions/
+ +emptytrash.svg: copy of the empty trash icon
+ +view_bottom.svg: completing the "view" series, for now
+ +view_choose.svg: ditto
+ +view_right.svg: ditto
+ +view_sidetree.svg: ditto
+ ~view_text: I thought I applied that color fix? anyways, now it's done
+ ~window_new.svg: just a little size optimization
+
+apps/
+ +pakoo.svg: A really mean icon for my very own portage frontend
+
+
+----------
+05/18/05 jpetso
+---------
+
+actions/
+ ~contents.svg: replaced with gnome-stock-book-open.svg
+ +contents2.svg: bookmark icon without the red bookmark
+ +imagegallery.svg: Gwenview's "Image View"
+ +rebuild.svg: sort of refresh view
+ +view_left_right.svg: new "split window" icon
+ +view_top_bottom.svg: ditto
+ +view_remove.svg: good to have, too.
+ ~view_detailed.svg: color fix
+ ~view_icon.svg: ditto
+ ~view_multicolumn.svg: ditto
+ ~view_text.svg: ditto
+ ~view_tree.svg: ditto
+ ~window_new.svg: ditto
+
+apps/
+ +kuickshow.svg: Finally, the flower has escaped lila-backgrounds!
+ +imagegallery.svg: duplicate of the action/ one
+ +photobook.svg: Another Konqueror view plugin
+ ~fsview.svg: color fix, too
+ -dock_both.svg: doesn't work, hmpf - sorry.
+ -dock_left.svg: ditto
+ -dock_none.svg: ditto
+ -dock_right.svg: ditto
+
+
+----------
+05/11/05 jpetso
+---------
+
+apps/
+ +dock_both.svg: tray icon for kppp
+ +dock_left.svg: ditto
+ +dock_none.svg: ditto
+ +dock_right.svg: ditto
+
+
+----------
+05/06/05 jpetso
+---------
+
+actions/
+ ~player_time.svg: yet another messed-up clock icon.
+
+apps/
+ +korgac.svg: the nasty KOrganizer Alarm Daemon taskbar icon.
+ +korgac_disabled.svg: the grayed out version of the above.
+ +lyx.svg: directly from gnome/apps
+
+
+----------
+05/05/05 jpetso
+---------
+"The 05 commit."
+
+actions/
+ +bug.svg: copy of the debugger icon, as found in kdbg.svg
+ +knewstuff.svg: finally, the emblem-special icon fits somewhere in KDE too.
+ +mouse.svg
+ +kdevelop_down.svg
+ +pencil.svg
+ +toggle_log.svg: copy of contents.svg, like in original crystal
+ color_picker.svg -> colorpicker.svg
+
+apps/
+ ~ark.svg: replaced with fileroller item
+ +kcoloredit.svg: copy of the color icon
+ +kcolorchooser.svg: copy of the colorpicker icon
+ +kgamma.svg: copy of gnome-monitor.svg
+ +kmobile.svg: taken from stock_cell-phone.svg
+ +kthememgr.svg: copy of glade-2, which shouldn't be all too common in KDE.
+ ~clock.svg: Don't know why, but some clocks have more contrast than others.
+ ~xclock.svg: So, copy from the original clock icons.
+
+devices/
+ +mobile_phone.svg: same as apps/kmobile.svg
+ +ksim_cpu.svg: the cpu icon, again
+
+mimetypes/
+ This is the great mimetypes clean-up. I checked well not to remove needed icons,
+ and I probably left out a few other unnecessary ones.
+ If I removed too much, please tell me instantly and I'll bring it back again.
+ -ac3.svg
+ -asf.svg
+ -avi.svg
+ -bmp.svg
+ -bzip2.svg
+ -dia-diagram.svg
+ -gif.svg
+ -gzip.svg
+ -jar.svg
+ -jpeg.svg
+ -mov.svg
+ -mp3.svg
+ -mpeg.svg
+ -ogg.svg
+ -png.svg
+ -psd.svg
+ -rar.svg
+ -real.svg
+ -rtf.svg
+ -sit.svg
+ -svg.svg
+ -tiff.svg
+ -wav.svg
+ -wmv.svg
+ -xcf.svg
+ -xpm.svg
+ +document2.svg: same as document.svg, don't know why it's duplicated
+ ~vcard.svg: replaced with gnome-gnomecard.svg, but without its toes
+
+
+----------
+04/24/05 jpetso (release 0.8)
+---------
+
+kde/
+ ~makerelease.sh: it's working as supposed, finally. man, this is tough.
+
+----------
+04/24/05 jpetso
+---------
+
+kde/
+ ~README: changed version to 0.8. yay!
+ ~FAQ: is now more complete. Go enjoy reading.
+ ~makecolormod.sh: added --help option to also display the Usage hint.
+ ~makerelease.sh: added --help option and the appropriate Usage hint.
+
+apps/
+ +akregator.svg: (new in KDE 3.4) new Akregator icon, also using telex' knode newspaper
+ +akregator_empty.svg: (new in KDE 3.4) I have yet to find out where this appears.
+ ~kopete.svg: changed the green to something that is not color modded.
+ ~kopete_some_online.svg: ditto
+ ~fsview.svg: ditto
+ ~hwinfo.svg: a tiny magnifier glass rotation
+
+devices/
+ +scanner.svg: copy of gnome's xsane icon
+ +mobile_camera.svg: (new in KDE 3.4) the camera icon, once more.
+ +mobile_musicplayer.svg: (new in KDE 3.4) copy of the 3-musical-notes icon.
+ +mobile_organizer.svg: (new in KDE 3.4) copy of the pda icon
+
+
+----------
+04/19/05 jpetso
+---------
+
+kde/
+ ~README: changed the link to our new BerliOS home
+ +FAQ: I felt like writing one. Maybe it's good for the people, or for the project.
+
+apps/
+ ~go.svg: made the K fatter. It has been too slick in comparison with the originals.
+ ~kmenu.svg: ditto
+ +ksokoban.svg: gnome's gweled diamond turned around
+ +hwinfo.svg: another newly composed icon, this time for KInfoCenter
+
+
+----------
+04/07/05 jpetso
+---------
+
+kde/
+ ~index.desktop: 128x128/filesystems was labeled wrong, fixed
+ ~index-red.desktop: ditto
+ ~index-blue.desktop: ditto
+
+apps/
+ ~konqueror.svg: konqification of the world icon. The question is, is it good enough?
+ ~kpackage.svg: replaced with gnome's synaptic.svg
+ +multisynk.svg: copy of gnome's palm-pilot-sync.svg
+
+devices/
+ +system.svg: "storage media" icon new in KDE 3.4, copy of kwikdisk.svg
+
+filesystems/
+ +camera.svg: since KDE 3.4 also in filesystems/
+ +folder_violet.svg: missing folder colors, until now. don't take them as official 8-)
+ +folder_violet_open.svg: ditto
+ +folder_orange.svg: ditto
+ +folder_orange_open.svg: ditto
+ +folder_grey.svg: ditto
+ +folder_grey_open.svg: ditto
+
+
+----------
+03/29/05 jpetso
+---------
+
+kde/
+ ~makerelease.sh: deployment ready (as far as I can see)
+ +index-scalable.desktop: replace index.desktop to have KDE use the SVG sources
+ +index-blue.desktop: copy of index.desktop with modified Description entry
+ +index-red.desktop: ditto
+
+
+----------
+03/22/05 jpetso
+---------
+
+kde/
+ ~makerelease.sh: it works! it's not yet perfect, but already you can generate PNGs and
+                  create color mods automatically. I'll finish it later on.
+ ~makecolormod.sh: some polish. Now, it definitely works.
+ ~generate.py: little more exception handling
+
+actions/
+ ~view_detailed.svg: size fix
+ ~view_multicolumn.svg: ditto
+ ~view_icon.svg: ditto
+ ~view_text.svg: ditto
+ ~view_tree.svg: ditto
+
+apps/
+ ~kontact.svg: small fix. I got it in use for a week now, and I really like it this way.
+ +fsview.svg: finally! that's another item taken off the todo list.
+ ~package_multimedia.svg: replaced with xfce-multimedia.svg, I think that fits better
+ ~multimedia.svg: ditto
+ -globe.svg: doesn't belong into KDE icon set (anymore?)
+ +netbeans.svg
+
+
+----------
+03/15/05 jpetso
+---------
+
+kde/
+ ~generate.py: added option parsing as prerequisite for automatic color mod
+               generation. made the code more readable. learned python.
+
+actions/
+ ~window_fullscreen.svg
+ ~window_nofullscreen.svg
+
+apps/
+ +kcmsound.svg
+ ~kaudiocreator.svg: update from gnome's sound-juicer
+
+
+----------
+03/14/05 jpetso
+---------
+
+kde/
+ +makecolormod.sh
+ ~makerelease.sh: stop deleting the most important pieces of your working directory
+ those two still don't work, don't even try it unless you want to improve them
+
+actions/
+ +debugger.svg
+ +ktip.svg: I thought I did this one long ago?
+ +player_mute.svg: copy of kmixdocked_mute
+
+apps/
+ kpoker.svg -> package_games_card.svg
+
+----------
+03/13/05 jpetso
+---------
+
+actions/
+ +history_clear.svg: combined the history icon with the 'no' cross
+ ~kontact_summary.svg: small change. might not be the last one, maybe.
+
+apps/
+ ~kontact.svg: another try. I think I'm getting close.
+
+
+----------
+03/11/05 jpetso
+---------
+
+kde/
+ ~generate.py: "rm -r %s/lila" -> "rm -rf %s/lila"
+               (because of write-protected files in some .svn dir)
+
+actions/
+ ~kontact_summary.svg: I didn't think of the most obvious option:
+                       making the app icon the summary icon. good idea.
+ ~kontact_contacts.svg: move the paper so it's in the middle
+ ~kontact_date.svg: ditto
+ ~kontact_todo.svg: ditto
+
+apps/
+ ~kontact.svg: rework, reflecting the most important program parts
+ ~kaddressbook.svg: see kontact_*.svg
+ ~korganizer.svg: ditto
+ ~korganizer_todo.svg: ditto
+ ~kmixdocked_mute.svg: tried out KDE SVG rendering beautification method, and it works!
+ +kpilot.svg
+ +kpilotDaemon.svg
+ +randr.svg: copy of gnome's display-capplet
+
+mimetypes/
+ ~colorscm.svg: this one was broken, fixed it
+
+
+----------
+03/01/05 jpetso
+---------
+
+kde/
+ ~generate.py: removed laptop_*.svg manual copy command, isn't needed anymore
+ +lila.kcsrc: the original color scheme from Tom Chance
+ +lila-alternative.kcsrc: a slightly different version by myself
+ +makerelease.sh: shell script to automate the packaging work -
+                  I didn't try it out yet, so it may not work.
+
+actions/
+ +kontact_summary.svg: new summary icon. I'm not sure if I'm satisfied with it yet.
+ +flag.svg
+ +reload3.svg: known use in Superkaramba context menu. Don't know if it's used anywhere else.
+ -close.svg
+
+apps/
+ +kopete.svg: new Kopete icons, hurray!
+ +kopete_all_away.svg
+ +kopete_offline.svg
+ +kopete_some_away.svg
+ +kopete_some_online.svg
+ ~kscreensaver.svg: changed the file in 0.7.3, but it's not yet in CVS
+ ~ksirc.svg: fix to match the lila specifications
+ ~kmixdocked.svg: use the gnome/stock/volume-max icon
+ ~kmixdocked_mute.svg: kmixdocked.svg combined with gnome/stock/volume-mute.svg
+ ~kmixdocked_error.svg: kmixdocked.svg combined with the stop sign icon
+
+filesystems/
+ ~folder_home2.svg: changed to rounded edge home icon as well.
+ +lockoverlay.svg
+ +zip.svg: belongs in filesystems/ AND mimetypes/
+
+mimetypes/
+ ~zip.svg: modified in order to look more like lila
+
+
+----------
+02/26/05 jpetso
+---------
+
+actions/
+ +fileexport.svg
+ ~kontact_todo.svg: update from apps/korganizer_todo.svg (was originally used by telex)
+
+apps/
+ +kwikdisk.svg: combined chardevice and floppy icons
+ ~kcmdevices.svg: updated with new kwikdisk.svg
+ +kcmdf.svg: ditto
+ +kdf.svg: ditto. Unfortunately, kwikdisk is using the kdf icon for the systray,
+           otherwise I would have made a different icon for KDiskFree. (That's life.)
+ ~laptop_battery.svg: update from devices/battery.svg
+
+
+----------
+02/10/05 jpetso (release 0.7.3)
+---------
+
+actions/
+ +fileclose.svg
+ +history.svg
+ +messagebox_critical.svg
+ +messagebox_warning.svg
+ +openterm.svg
+
+apps/
+ hexedit.svg -> khexedit.svg: sorry, messed up this one
+ +ktip.svg: ditto
+ ~kfm_home2.svg: update from firefox-home.svg
+ +kweather.svg
+ +kwin.svg
+ +laptop_battery.svg
+ +panel_settings.svg
+ +planner.svg
+ +mathematica.svg
+ ~kscreensaver.svg: update from gnome's xscreensaver.svg
+
+
+things I had in my last tarball, but forgot to mention them here, so they're not yet in CVS:
+
+actions/
+ (to 9-speed: remove these two from your disk)
+ -kmaillight.svg (goes to apps/ where it belongs)
+ -italic.svg
+
+apps/
+ +kmaillight.svg (moved from actions/, where it doesn't belong)
+ +realplayer.svg
+ +skype.svg
+ +sodipodi.svg
+
+
+----------
+02/09/05 jpetso (release 0.7.2)
+---------
+
+kde/
+ ~generate.py: add ksvgtopng converter (which is not very capable)
+ ~index.desktop: bug fixing
+
+
+actions/
+ +2leftarrow.svg
+ +2rightarrow.svg
+ +2uparrow.svg
+ +2downarrow.svg
+
+ align_left.svg -> text_left.svg, leftjust.svg
+ align_right.svg -> text_right.svg, rightjust.svg
+ center.svg -> text_center.svg, centrejust.svg
+ fill.svg -> text_block.svg
+ strikethrough.svg -> text_strike.svg
+ underline.svg -> text_under.svg, under.svg
+ italic.svg -> text_italic.svg
+ bold.svg -> text_bold.svg
+ +text.svg
+
+ ~bookmark.svg: update from epiphany-bookmarks.svg
+ ~bookmark_add.svg: update from stock_add-bookmark.svg
+ +favorites.svg
+ +indent.svg
+ first.svg -> start.svg
+ last.svg -> finish.svg
+ font.svg -> fonts.svg
+ +fontsizedown.svg
+ +fontsizeup.svg
+ +khtml_kget.svg
+
+ +kontact_contacts.svg
+ +kontact_date.svg
+ +kontact_mail.svg
+ +kontact_news.svg
+ +kontact_notes.svg
+ +kontact_todo.svg
+
+ +ktip.svg
+
+ ~laptop_charge.svg
+ ~laptop_nobattery.svg
+ ~laptop_nocharge.svg
+ ~laptop_power.svg
+
+ ~mail_find.svg: update from balsa_show_preview.svg
+ ~mail_forward.svg: update from balsa_forward.svg
+ ~mail_generic.svg: update from balsa_info_read.svg
+ ~mail_get.svg: update from balsa_receive.svg
+ ~mail_reply.svg: update from balsa_reply.svg
+ ~mail_replyall.svg: update from balsa_reply_all.svg
+ ~mail_replylist.svg: update from balsa_reply_group.svg
+ ~mail_send.svg: update from balsa_menu_send.svg
+ ~queue.svg: combined mail_generic.svg with clock from korn.svg
+ ~attach.svg: updated from balsa_info_attachment.svg
+
+ ~player_eject.svg: updated with gnome stock icon
+ ~player_end.svg: ditto
+ ~player_fwd.svg: ditto
+ ~player_pause.svg: ditto
+ ~player_play.svg: ditto
+ ~player_rew.svg: ditto
+ ~player_start.svg: ditto
+ +player_time.svg
+ +player_volume.svg
+
+ +save_all.svg
+
+
+apps/
+ +abiword.svg
+ +audacity.svg
+ +bluefish.svg
+ +clanbomber.svg
+ +clock.svg
+ +date.svg
+ +eclipse.svg
+ +edu_mathematics.svg
+ +error.svg
+ ~frozenbubble.svg: updated with correct icon from gnome apps
+ +gnome_apps.svg
+ +gnomemeeting.svg
+ +gv.svg
+ +hexedit.svg
+
+ +fonts.svg
+ +kcmdevices.svg
+ +kcmfontinst.svg
+ +kcmprocessor.svg
+
+ +kdbg.svg
+ ~kdict: updated with gdict icon
+ +key_bindings.svg
+ +keyboard.svg
+ +kfilereplace.svg
+ +kfontview.svg
+ +kget.svg
+ +kjobviewer.svg
+ +kmag.svg
+ +knotes.svg
+
+ +klines.svg
+ +kmahjongg.svg
+ +kmines.svg
+ +kpoker.svg
+ +kreversi.svg
+ +ksame.svg
+ +ksirtet.svg
+ +ksmiletris.svg
+ +kwin4.svg
+
+ ~kmix.svg: updated with gnome and xfce versions
+ ~knode.svg: changed it again, please update the gnome newsreaders too
+ ~kpdf.svg: updated with gnome-pdf.svg
+ ~kghostview.svg: updated with gnome-ghostview.svg
+
+ +konqsidebar_news.svg
+ +korn.svg
+ +kpackage.svg
+ +kpager.svg
+ +kppp.svg
+ +krfb.svg
+ +krdc.svg
+ +nicotine.svg
+ +printmgr.svg
+ ~xclock.svg: replaced with clock from gnome-mailcheck, because it was still transparent. please update gnome clocks as well!
+ +xconsole.svg
+ +xemacs.svg
+ +xeyes.svg
+
+
+devices/
+ +blockdevice.svg
+ +chardevice.svg
+ +joystick.svg
+ +pda_black.svg
+ +zip_mount.svg
+ +zip_unmount.svg
+
+
+filesystems/
+ executable.svg -> exec.svg
+ folder_favourite.svg -> folder_favorite.svg
+
+
+mimetypes/
+ +ascii.svg
+ +core.svg
+ +dvi.svg
+ +exec_wine.svg
+ +font.svg
+ +man.svg
+ +quicktime.svg
+ +source.svg
+ +template_source.svg
+ +vcalendar.svg
+
+ ~source_c.svg: updated with gnome mimetype icons
+ ~source_cpp.svg: ditto
+ ~source_h.svg: ditto
+ ~source_java.svg: ditto
+ ~source_o.svg: ditto
+ ~source_php.svg: ditto
+ ~text-x-patch.svg: ditto
